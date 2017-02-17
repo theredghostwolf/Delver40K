@@ -41,7 +41,7 @@
 			class:com.interrupt.dungeoneer.entities.items.Armor,
 			itemType:armor,
 			spriteAtlas:"40K",
-			tex:4,
+			tex:5,
 			name:"Power Armor Chest",
 			armor:10,
 			yOffset:-0.11,
@@ -49,6 +49,20 @@
 			pickupSound:"pu_gen_v2.mp3",
 			dropSound:"drops/drop_hard_01.mp3,drops/drop_hard_02.mp3,drops/drop_hard_03.mp3",
 			baseMods: { moveSpeedMod: 10, damageMod: 5, attackSpeedMod: 10, hpMod: 10}
+		},
+		{
+			class:com.interrupt.dungeoneer.entities.items.Armor,
+			itemType:armor,
+			tex:6,
+			spriteAtlas:"40K",
+			name:"Power Armor helmet",
+			armor:6,
+			equipLoc:"HAT",
+			yOffset:-0.11,
+			cost:75,
+			pickupSound:"pu_gen_v2.mp3",
+			dropSound:"drops/drop_hard_01.mp3,drops/drop_hard_02.mp3,drops/drop_hard_03.mp3",
+			baseMods: { hpMod: 5 }
 		},
 		]
 	},
