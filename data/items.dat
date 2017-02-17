@@ -41,7 +41,7 @@
 			class:com.interrupt.dungeoneer.entities.items.Armor,
 			itemType:armor,
 			spriteAtlas:"40K",
-			tex:5,
+			tex:7,
 			name:"Power Armor Chest",
 			armor:10,
 			yOffset:-0.11,
