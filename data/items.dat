@@ -1,0 +1,117 @@
+{
+	ranged:{
+		"1":[
+		{
+				class:com.interrupt.dungeoneer.entities.items.ItemStack,
+				tex:3,
+				spriteAtlas:"40K",
+				name:"Bolter Ammo",
+				count:12,
+				stackType:"BULLET",
+				yOffset:0
+		},
+		]
+	},
+	melee:{
+		"1":[
+			{
+				class:com.interrupt.dungeoneer.entities.items.Sword,
+				itemType:sword,
+				tex:2,
+				spriteAtlas:"40K",
+				name:"Chain Sword",
+				baseDamage:8,
+				randDamage:4,
+				knockback:0.2,
+				reach:0.8,
+				speed:2.0,
+				chargespeed:1.5,
+				cost:55,
+				pickupSound:"pu_metal.mp3",
+				attackAnimation:"daggerAttack",
+				attackStrongAnimation:"daggerAttackStrong",
+				chargeAnimation:"daggerCharge",
+				dropSound:"drops/drop_metal_01.mp3,drops/drop_metal_02.mp3,drops/drop_metal_03.mp3",
+			}
+		]
+	},
+	armor:{
+		"1": [
+		{
+			class:com.interrupt.dungeoneer.entities.items.Armor,
+			itemType:armor,
+			spriteAtlas:"40K",
+			tex:4,
+			name:"Power Armor Chest",
+			armor:10,
+			yOffset:-0.11,
+			cost:100,
+			pickupSound:"pu_gen_v2.mp3",
+			dropSound:"drops/drop_hard_01.mp3,drops/drop_hard_02.mp3,drops/drop_hard_03.mp3",
+			baseMods: { moveSpeedMod: 10, damageMod: 5, attackSpeedMod: 10, hpMod: 10}
+		},
+		]
+	},
+	wands: [
+	{
+				class:com.interrupt.dungeoneer.entities.items.Wand,
+				itemType:wand,
+				name:"Storm Bolter",
+				spell: {
+					class:com.interrupt.dungeoneer.entities.spells.MagicMissile,
+					spellColor:{r:1.0,g:0,b:0},
+							speed: 0.75,
+							magicMissileProjectile: {
+									class: com.interrupt.dungeoneer.entities.projectiles.MagicMissileProjectile,
+								tex: 88,
+									endAnimTex: 95,
+									animSpeed: 15,
+									spriteAtlas:"particle",
+									splashForce : 0.2,
+									splashRadius: 3.0,
+									splashDamage: true,
+									fullbrite:true,
+									floating: false,
+									hitDecal: null,
+									knockback: 0.5,
+									explosion: {
+											explosionStartTex: 0,
+											explosionEndTex: 8,
+											spriteAtlas:"particle_large",
+											scale: 2.0,
+											color: {r:1, g:1, b: 1},
+											fullbrite:true,
+											explosionAnimSpeed: 30.0,
+											explosionLightStartColor: {r: 0.9372, g: 0.8275, b: 0.2078},
+											explosionLightEndColor: {r: 0.7020, g: 0.1922, b: 0.1922},
+											particleCount: 5,
+											impulseDistance: 0.4,
+											shakeDistance: 1.5,
+											makeDustRing:true,
+											dustRingColor: {r:0.2431, g:0.1960, b: 0.1960},
+											makeFlyAways:true,
+											flyAwayColor: {r:0.2431, g:0.1960, b: 0.1960},
+											hitDecal: {
+												tex: 19,
+												decalWidth: 1.2,
+												decalHeight: 1.2,
+												artType: sprite
+											}
+							}
+							},
+					castSound:"magic/mg_fire_shoot_01.mp3,magic/mg_fire_shoot_02.mp3,magic/mg_fire_shoot_03.mp3,magic/mg_fire_shoot_04.mp3",
+					hitSound:"magic/mg_fire_impact_01.mp3,magic/mg_fire_impact_02.mp3,magic/mg_fire_impact_03.mp3,magic/mg_fire_impact_04.mp3"
+				},
+				charges:30,
+				damageType:FIRE,
+				baseDamage:3,
+				randDamage:3,
+				tex:0,
+				spriteAtlas:"40K",
+				yOffset:-0.04,
+				cost:55,
+				autoFire: true,
+			  autoFireTime: 0.5,
+			},
+	]
+}

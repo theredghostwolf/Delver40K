@@ -1,0 +1,9 @@
+[
+    {
+        columns: 1,
+        filename: "40Ksheet.png",
+        scale: 0.5,
+        name: "40K",
+        y_offset: 0.25
+    }
+]
