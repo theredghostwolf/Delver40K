@@ -7,6 +7,7 @@ warhammer 40K mod for delver
 * Storm bolter
 * storm bolter ammmo
 * power armor chestplate
+* power armor helmet
 
 everything is in a beta state.
 
