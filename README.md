@@ -3,12 +3,19 @@ warhammer 40K mod for delver
 
 # current features
 
-* chain sword
-* Storm bolter
-* storm bolter ammmo
-* power armor chestplate
+* blood angels:
+
+* chain sword -- By the blood of sanguinius!
+* Storm bolter -- I need two of these for this amount of heretics.
+* storm bolter ammmo -- Good let war continue!
+* power armor chestplate 
 * power armor helmet
 * power armor leggings
+
+* Orcs:
+
+* Kokkit Launcha -- Fer killin' wagons
+* Burna -- Ere' We Go
 
 # note
 
