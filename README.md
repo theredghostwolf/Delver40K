@@ -14,7 +14,7 @@ warhammer 40K mod for delver
 
 * Orcs:
 
-* Kokkit Launcha -- Fer killin' wagons
+* Rokkit Launcha -- Fer killin' wagons
 * Burna -- Ere' We Go
 
 # note
