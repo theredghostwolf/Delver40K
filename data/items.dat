@@ -53,7 +53,7 @@
 		{
 			class:com.interrupt.dungeoneer.entities.items.Armor,
 			itemType:armor,
-			tex:6,
+			tex:8,
 			spriteAtlas:"40K",
 			name:"Power Armor helmet",
 			armor:6,
@@ -64,6 +64,20 @@
 			dropSound:"drops/drop_hard_01.mp3,drops/drop_hard_02.mp3,drops/drop_hard_03.mp3",
 			baseMods: { hpMod: 5 }
 		},
+		{
+				class:com.interrupt.dungeoneer.entities.items.Armor,
+				itemType:armor,
+				tex:9,
+				spriteAtlas: "40K",
+				name:"Power Armor leggings",
+				armor:8,
+				equipLoc:"PANTS",
+				yOffset:-0.11,
+				cost:90,
+				pickupSound:"pu_gen_v2.mp3",
+				dropSound:"drops/drop_hard_01.mp3,drops/drop_hard_02.mp3,drops/drop_hard_03.mp3",
+				baseMods: { moveSpeedMod: 15, hpMod: 8 }
+			},
 		]
 	},
 	wands: [
